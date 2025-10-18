@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bikroy Clone with Hero Slider</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="logo">Logo</div>
+  <div class="right-icons">
+    <div>🚚 Delivery</div>
+    <div>🛒 Cart</div>
+    <div>🌐 EN</div>
+    <div>👤 Sign In</div>
+  </div>
+</header>
+
+<!-- ===== CATEGORY NAV BAR ===== -->
+<div class="category-nav">
+  <div class="all-categories">☰ All Categories</div>
+  <div class="nav-buttons">
+    <div>Today's Deals</div>
+    <div>Electronics</div>
+    <div>Fashion</div>
+    <div>Home & Kitchen</div>
+    <div>Beauty & Health</div>
+    <div>Baby & Toys</div>
+  </div>
+</div>
+
+<!-- ===== HERO SLIDER ===== -->
+<section class="hero">
+
+  <div class="hero-slide active" style="background-image:url('caro1.1.png');"></div>
+  <div class="hero-slide" style="background-image:url('caro2.2.png');"></div>
+  <div class="hero-slide" style="background-image:url('caro3.3.png');"></div>
+  <div class="hero-slide active" style="background-image:url('caro4.4.png');"></div>
+  <div class="hero-slide" style="background-image:url('caro5.5.png');"></div>
+
+
+  <div class="slider-arrow left">&#10094;</div>
+  <div class="slider-arrow right">&#10095;</div>
+
+  <div class="slider-dots"></div>
+
+  <div class="category-container">
+    <div class="category-list" id="categoryList">
+      <div data-category="electronics">Electronics</div>
+      <div data-category="fashion">Fashion</div>
+      <div data-category="home">Home & Kitchen</div>
+      <div data-category="beauty">Beauty & Health</div>
+      <div data-category="baby">Baby & Toys</div>
+    </div>
+    <div class="subcategory-panel" id="subcategoryPanel"></div>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <!-- 2 Hero carousel -->
+  <div class="hero-heading"> <h1  > Top Deals For You </h1>
+<div class="hero-carousol">
+
+  <!-- Left carousel -->
+  <div class="carousel small" id="leftCarousel">
+    <div class="slides">
+      <div class="slide" style="background-image:url('https://picsum.photos/500/300?random=11')"></div>
+      <div class="slide" style="background-image:url('https://picsum.photos/500/300?random=12')"></div>
+      <div class="slide" style="background-image:url('https://picsum.photos/500/300?random=13')"></div>
+    </div>
+    <button class="ctrl left">❮</button>
+    <button class="ctrl right">❯</button>
+    <div class="dots"></div>
+  </div>
+
+  <!-- Middle carousel -->
+  <div class="carousel large" id="midCarousel">
+    <div class="slides">
+      <div class="slide" style="background-image:url('https://picsum.photos/800/300?random=21')"></div>
+      <div class="slide" style="background-image:url('https://picsum.photos/800/300?random=22')"></div>
+      <div class="slide" style="background-image:url('https://picsum.photos/800/300?random=23')"></div>
+    </div>
+    <button class="ctrl left">❮</button>
+    <button class="ctrl right">❯</button>
+    <div class="dots"></div>
+  </div>
+
+  <!-- Right carousel -->
+  <div class="carousel small" id="rightCarousel">
+    <div class="slides">
+      <div class="slide" style="background-image:url('https://picsum.photos/500/300?random=31')"></div>
+      <div class="slide" style="background-image:url('https://picsum.photos/500/300?random=32')"></div>
+      <div class="slide" style="background-image:url('https://picsum.photos/500/300?random=33')"></div>
+    </div>
+    <button class="ctrl left">❮</button>
+    <button class="ctrl right">❯</button>
+    <div class="dots"></div>
+  </div>
+</div>
+</div>
+
+ <!-- All items start -->
+<main id="main"> </main>
+<!-- All items ends -->
+
+
+
+
+
+<!-- Footer Section Starts -->
+  <footer class="footer-container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h5 class="section-title">Discover</h5>
+        <div class="city-slider">
+          <div class="city-slides">
+            <div class="city-slide">
+              <a href="#" class="city-link">Abu Dhabi</a>
+              <a href="#" class="city-link">Ajman</a>
+              <a href="#" class="city-link">Dubai</a>
+              <a href="#" class="city-link">Sharjah</a>
+            </div>
+            <div class="city-slide">
+              <a href="#" class="city-link">Ras Al Khaimah</a>
+              <a href="#" class="city-link">Al Ain</a>
+              <a href="#" class="city-link">Fujairah</a>
+              <a href="#" class="city-link">Umm Al Quwain</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h5 class="section-title">Help & Support</h5>
+        <div class="policy-links">
+          <a href="#">FAQ</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Live Chat</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h5 class="section-title">About b2bdubai24</h5>
+        <div class="policy-links">
+          <a href="#">About Us</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Career</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h5 class="section-title">Blog & Guide</h5>
+        <div class="policy-links">
+          <a href="#">Our Blog</a>
+          <a href="#">Travel Guide</a>
+          <a href="#">Market News</a>
+          <a href="#">Tips</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="footer-container2">
+        <div class="news-letter">
+          <label for="subscribe">Subscribe To Newsletter</label>
+          <input type="email" id="subscribe" placeholder="Your Email Address" required />
+          <button>Subscribe</button>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com" target="_blank" style="color:#E1306C;"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank" style="color:#1DA1F2;"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com" target="_blank" style="color:#0077B5;"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com" target="_blank" style="color:#1877F2;"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.tumblr.com" target="_blank" style="color:#35465C;"><i class="fab fa-tumblr"></i></a>
+          <a href="https://www.pinterest.com" target="_blank" style="color:#E60023;"><i class="fab fa-pinterest"></i></a>
+        </div>
+
+        <div class="footer-copyright">
+          &copy; Copyright 2025 Galaxy IT Park. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+<script>
+/* ===== CATEGORY MENU LOGIC ===== */
+const allCatBtn = document.querySelector('.all-categories');
+const categoryList = document.getElementById('categoryList');
+const subcategoryPanel = document.getElementById('subcategoryPanel');
+
+const data = {
+  electronics: {
+    columns: [
+      { title: "Mobile Phones", items: ["Smartphones", "Tablets", "Accessories", "Wearables", "Power Banks"] },
+      { title: "Laptops", items: ["Gaming", "Business", "Student"] },
+      { title: "TV & Audio", items: ["Televisions", "Speakers", "Headphones"] }
+    ],
+    image: "https://via.placeholder.com/180x120?text=Electronics"
+  },
+  fashion: {
+    columns: [
+      { title: "Men", items: ["Shirts", "T-Shirts", "Jeans", "Shoes"] },
+      { title: "Women", items: ["Dresses", "Tops", "Heels", "Bags"] },
+      { title: "Kids", items: ["Boys", "Girls", "Footwear"] }
+    ],
+    image: "https://via.placeholder.com/180x120?text=Fashion"
+  },
+  home: {
+    columns: [
+      { title: "Appliances", items: ["Blenders", "Microwaves", "Fridges"] },
+      { title: "Furniture", items: ["Sofas", "Beds", "Tables"] },
+      { title: "Decor", items: ["Curtains", "Vases", "Lights"] }
+    ],
+    image: "https://via.placeholder.com/180x120?text=Home"
+  }
+};
+
+allCatBtn.addEventListener('mouseenter', () => categoryList.classList.add('active'));
+categoryList.addEventListener('mouseleave', () => {
+  categoryList.classList.remove('active');
+  subcategoryPanel.classList.remove('active');
+});
+subcategoryPanel.addEventListener('mouseleave', () => subcategoryPanel.classList.remove('active'));
+
+categoryList.querySelectorAll('div').forEach(item => {
+  item.addEventListener('mouseenter', () => {
+    const cat = data[item.dataset.category];
+    if (cat) {
+      let html = "";
+      cat.columns.forEach(col => {
+        html += `<div class="subcategory-column">
+          <h4>${col.title}</h4>
+          <ul>${col.items.map(i => `<li>${i}</li>`).join('')}</ul>
+        </div>`;
+      });
+      html += `<div class="subcategory-image"><img src="${cat.image}" alt=""></div>`;
+      subcategoryPanel.innerHTML = html;
+      subcategoryPanel.classList.add('active');
+    }
+  });
+});
+
+/* ===== HERO SLIDER ===== */
+const slides = document.querySelectorAll('.hero-slide');
+const dotsContainer = document.querySelector('.slider-dots');
+let currentIndex = 0;
+
+// Create dots
+slides.forEach((_, index) => {
+  const dot = document.createElement('span');
+  if (index === 0) dot.classList.add('active');
+  dot.addEventListener('click', () => showSlide(index));
+  dotsContainer.appendChild(dot);
+});
+const dots = dotsContainer.querySelectorAll('span');
+
+function showSlide(index) {
+  slides[currentIndex].classList.remove('active');
+  dots[currentIndex].classList.remove('active');
+  slides[index].classList.add('active');
+  dots[index].classList.add('active');
+  currentIndex = index;
+}
+
+document.querySelector('.slider-arrow.left').addEventListener('click', () => {
+  let index = currentIndex - 1;
+  if (index < 0) index = slides.length - 1;
+  showSlide(index);
+});
+document.querySelector('.slider-arrow.right').addEventListener('click', () => {
+  let index = currentIndex + 1;
+  if (index >= slides.length) index = 0;
+  showSlide(index);
+});
+
+// Auto slide
+setInterval(() => {
+  let index = (currentIndex + 1) % slides.length;
+  showSlide(index);
+}, 5000);
+</script>
+
+
+
+
+
+
+
+<script>
+function initCarousel(id, interval=4000){
+  const el = document.getElementById(id);
+  const slides = el.querySelector('.slides');
+  const total = slides.children.length;
+  const dotsBox = el.querySelector('.dots');
+  let index = 0;
+
+  // Create dots
+  for(let i=0;i<total;i++){
+    const dot=document.createElement('div');
+    dot.className='dot'+(i===0?' active':'');
+    dot.addEventListener('click',()=>goTo(i));
+    dotsBox.appendChild(dot);
+  }
+  const dots=[...dotsBox.children];
+
+  function goTo(i){
+    index=(i+total)%total;
+    slides.style.transform=`translateX(-${index*100}%)`;
+    dots.forEach((d,j)=>d.classList.toggle('active',j===index));
+  }
+  el.querySelector('.ctrl.left').onclick=()=>goTo(index-1);
+  el.querySelector('.ctrl.right').onclick=()=>goTo(index+1);
+
+  // autoplay
+  let timer=setInterval(()=>goTo(index+1),interval);
+  el.addEventListener('mouseenter',()=>clearInterval(timer));
+  el.addEventListener('mouseleave',()=>timer=setInterval(()=>goTo(index+1),interval));
+}
+
+initCarousel('leftCarousel');
+initCarousel('midCarousel');
+initCarousel('rightCarousel');
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+/* ===== All items start ===== */
+const categories = [
+  "Electronics","Fashion","Home & Kitchen","Beauty & Health","Sports & Fitness",
+  "Automotive","Toys & Games","Groceries","Books & Stationery","Furniture"
+];
+
+const main = document.getElementById('main');
+
+categories.forEach((cat, ci) => {
+  const section = document.createElement('section');
+  section.className = 'section';
+  section.innerHTML = `
+    <h2>${cat}</h2>
+    <div class="carousel">
+      <div class="track"></div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+      <div class="dots"></div>
+    </div>
+  `;
+  main.appendChild(section);
+
+  const track = section.querySelector('.track');
+  for (let i = 1; i <= 9; i++) {
+    const name = `${cat} Product ${i}`;
+    const price = (Math.random() * 900 + 50).toFixed(2);
+    const seed = ci * 100 + i * 3;
+    const imgs = [
+      `https://picsum.photos/600/400?random=${seed+1}`,
+      `https://picsum.photos/600/400?random=${seed+2}`,
+      `https://picsum.photos/600/400?random=${seed+3}`
+    ];
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="card-inner">
+        <div class="mini-slider">
+          <div class="mini-slides">
+            <img src="${imgs[0]}" class="active" alt="${name}">
+            <img src="${imgs[1]}" alt="${name}">
+            <img src="${imgs[2]}" alt="${name}">
+          </div>
+          <button class="mini-arrow left">❮</button>
+          <button class="mini-arrow right">❯</button>
+          <div class="mini-dots"></div>
+        </div>
+        <div class="product-title">${name}</div>
+        <div class="product-price">AED ${price}</div>
+      </div>`;
+    track.appendChild(card);
+  }
+  initCarousel(section.querySelector('.carousel'));
+});
+
+function initCarousel(carousel) {
+  const track = carousel.querySelector('.track');
+  const cards = carousel.querySelectorAll('.card');
+  const prev = carousel.querySelector('.prev');
+  const next = carousel.querySelector('.next');
+  const dotsContainer = carousel.querySelector('.dots');
+  let index = 0;
+
+  const perView = () => (innerWidth <= 600 ? 1 : innerWidth <= 992 ? 2 : 3);
+  const totalPages = () => Math.ceil(cards.length / perView());
+
+  function goTo(i) {
+    index = (i + totalPages()) % totalPages();
+    const offset = index * carousel.clientWidth;
+    track.style.transform = `translateX(-${offset}px)`;
+    updateDots();
+  }
+
+  function updateDots() {
+    dotsContainer.innerHTML = '';
+    for (let i = 0; i < totalPages(); i++) {
+      const dot = document.createElement('div');
+      dot.className = 'dot' + (i === index ? ' active' : '');
+      dot.onclick = () => goTo(i);
+      dotsContainer.appendChild(dot);
+    }
+  }
+
+  prev.onclick = () => goTo(index - 1);
+  next.onclick = () => goTo(index + 1);
+  window.addEventListener('resize', () => goTo(index));
+
+  updateDots();
+  goTo(0);
+
+  carousel.querySelectorAll('.mini-slider').forEach(initMiniSlider);
+}
+
+function initMiniSlider(slider) {
+  const slides = [...slider.querySelectorAll('.mini-slides img')];
+  const left = slider.querySelector('.mini-arrow.left');
+  const right = slider.querySelector('.mini-arrow.right');
+  const dotsBox = slider.querySelector('.mini-dots');
+  let idx = 0;
+  let timer;
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'dot' + (i === 0 ? ' active' : '');
+    dot.onclick = () => goTo(i);
+    dotsBox.appendChild(dot);
+  });
+
+  const dots = [...dotsBox.children];
+
+  function update() {
+    slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+    dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+  }
+
+  function goTo(i) {
+    idx = (i + slides.length) % slides.length;
+    update();
+    resetTimer();
+  }
+
+  left.onclick = () => goTo(idx - 1);
+  right.onclick = () => goTo(idx + 1);
+
+  let startX = 0;
+  slider.addEventListener('touchstart', e => (startX = e.touches[0].clientX), { passive: true });
+  slider.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (dx > 30) goTo(idx - 1);
+    else if (dx < -30) goTo(idx + 1);
+  });
+
+  slider.onmouseenter = () => clearInterval(timer);
+  slider.onmouseleave = resetTimer;
+
+  function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(() => goTo(idx + 1), 4000);
+  }
+
+  update();
+  resetTimer();
+}
+/* ===== All items end ===== */
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
